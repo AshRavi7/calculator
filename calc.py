@@ -1,5 +1,5 @@
 from math import * 
-'''this is a docstring'''
+"this is not a docstring"
 class simple_calc: # tkinkter 
     def __init__(self):
         print("Hey user, you have selected simple calculator operation...")
