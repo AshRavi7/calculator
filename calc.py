@@ -115,7 +115,7 @@ if __name__=="__main__": # main method
             elif adv_obj.sim_oper =="combination":
                 adv_obj.get_combination()
             else:
-                print("Your operation is invalid ")
+                print("Your operation is not valid ")
         else:
             print("Please select the option from above")
             
