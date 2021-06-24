@@ -1,5 +1,3 @@
-import math 
-
 class simple_calc: # tkinkter 
     def __init__(self):
         print("Hey user, you have selected simple calculator operation...")
@@ -60,6 +58,7 @@ class advance_calc(simple_calc):
         print(f"The combination value is {math.comb(self.one_value)}")
 
 if __name__=="__main__": # main method 
+    import math 
     enter_data=0
     while enter_data not in ["1","2"]:
         print('''Please enter type of calculation you want to use
