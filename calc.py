@@ -1,4 +1,4 @@
-import math 
+from math import * 
 class simple_calc: # tkinkter 
     def __init__(self):
         print("Hey user, you have selected simple calculator operation...")
